@@ -1,0 +1,47 @@
+Exercícios de Contrapositiva e Redução ao Absurdo
+
+Exercícios de Indução Finita
+
+Exercícios sobre Aritmética de Peano
+
+Exercícios sobre Conjuntos Enumeráveis e Não-Enumeráveis
+
+Exercícios sobre Combinatória
+
+Exercícios sobre o Princípio da Casa dos Pombos e Combinatória
+
+2. Separamos os seguintes n conjuntos:
+
+{1,2}, {3,4}, {5,6}, ..., {2n-1,2n}
+
+Essas são exatamente n casas de pombo, em que cada casa de pombo apresenta dois números primos entre si, afinal mdc(x,x+1) = mdc(x,x+1-x) = mdc(x,1) = 1.
+Portanto, ao escolhermos n+1 elementos, pelo Princípio da Casa dos Pombos, existem pelo menos 2 elementos dentro de uma das n casas, como cada par de elementos em uma casa são primos entre si, então de fato sempre existirá um par de elementos primos entre si independente da escolha dos n+1 elementos. cqd
+
+4. Existem 12 meses em um ano, logo dadas as seguintes casas de pombo:
+
+{criançam que nasceram em janeiro}, {criançam que nasceram em fevereiro}, ... , {criançam que nasceram em dezembro}
+
+Se existem 37 crianças e 12 casas de pombo, então como 37 = 12 * 3 + 1, existe pelo menos uma casa de pombo com 4 elementos (isso já no pior caso, em que todas as outras teriam 3 elementos). 
+Portanto, como cada casa de pombo é definida como o conjunto de crianças que nasceram em um mês X, se existe uma casa com 4 elementos, então de fato existem pelo menos 4 crianças que nasceram no mesmo mês. cqd
+
+6. Vamos limitar o número de alunos da maior classe por cima e por baixo:
+
+- Mínimo:
+
+Como existem 46 classes com média de 38 alunos, no pior caso todas as classes tem mesmo número de alunos, ou seja, a maior classe teria 38 alunos.
+Já sabemos um exemplo com 38 alunos, vamos supor que a maior classe tivesse menos que 38 alunos, então o total de alunos das outras classes seria pelo menos 46 * 38 - 37 = 45 * 38 + 1.
+Desse modo, as restantes 45 classes seriam casas de pombo:
+
+{Classe 1}, {Classe 2}, ... , {Classe 45}
+
+E como existem 45 * 38 + 1 pombos, então no pior dos casos, alguma casa teria 38 + 1 = 39 estudantes. E portanto como 39 > 37, por absurdo teríamos uma classe com mais estudantes que a maior classe.
+
+Logo, de fato, o mínimo é 38 alunos.
+
+- Máximo:
+
+
+
+
+Exercícios sobre Teoria dos Grupos e Simetrias
+
