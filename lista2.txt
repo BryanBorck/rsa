@@ -40,7 +40,9 @@ Logo, de fato, o mínimo é 38 alunos.
 
 - Máximo:
 
+No pior dos casos, todas as classes, exceto a maior, teriam exatamente 1 aluno (estou supondo aqui que não seja possível ter uma classe sem alunos), enquanto a maior classe teria o restante dos alunos.
 
+Desse modo, existiriam 46 * 38 - 45 = 45 * 38
 
 
 Exercícios sobre Teoria dos Grupos e Simetrias
